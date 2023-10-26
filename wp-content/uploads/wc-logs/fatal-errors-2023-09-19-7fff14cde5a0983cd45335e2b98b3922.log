@@ -1,0 +1,120 @@
+2023-09-19T09:16:35+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 156
+
+2023-09-19T10:10:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price_addON(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:265
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price_addON()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(308): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1284): do_action()
+#8 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(464): WC_Cart->add_to_cart()
+#9 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): WC_AJAX::add_to_cart()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action()
+#13 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): WC_AJAX::do_wc_ajax()
+#14 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#15 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#16 /var/www/html/woocommerce/wp-includes/template-loader.php(13): do_action()
+#17 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#18 /var/www/html/woocommerce/index.php(17): require('...')
+#19 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 265
+
+2023-09-19T10:10:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price_addON(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:265
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price_addON()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 265
+
+2023-09-19T10:10:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price_addON(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:265
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price_addON()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 265
+
+2023-09-19T10:11:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price_addON(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:265
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price_addON()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 265
+
+2023-09-19T10:11:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price_addON(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:265
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price_addON()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 265
+
+2023-09-19T13:12:49+00:00 CRITICAL syntax error, unexpected identifier "add_filter" in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 419
+
+2023-09-19T13:14:50+00:00 CRITICAL syntax error, unexpected identifier "add_filter" in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 419
+
+2023-09-19T13:16:51+00:00 CRITICAL syntax error, unexpected identifier "add_filter" in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 419
+

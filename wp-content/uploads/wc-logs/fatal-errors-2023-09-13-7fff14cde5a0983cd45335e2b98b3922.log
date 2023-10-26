@@ -1,0 +1,69 @@
+2023-09-13T05:59:17+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 158
+
+2023-09-13T07:01:35+00:00 CRITICAL Uncaught Error: Call to a member function set_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:219
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 219
+
+2023-09-13T07:01:46+00:00 CRITICAL Uncaught Error: Call to a member function set_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:219
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#6 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#7 /var/www/html/woocommerce/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#8 [internal function]: do_shortcode_tag()
+#9 /var/www/html/woocommerce/wp-includes/shortcodes.php(235): preg_replace_callback()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): do_shortcode()
+#11 /var/www/html/woocommerce/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/post-template.php(256): apply_filters()
+#13 /var/www/html/woocommerce/wp-content/themes/Ecommerce/page.php(7): the_content()
+#14 /var/www/html/woocommerce/wp-includes/template-loader.php(106): include('...')
+#15 /var/www/html/woocommerce/wp-blog-header.php(19): require_once('...')
+#16 /var/www/html/woocommerce/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 219
+
+2023-09-13T07:02:03+00:00 CRITICAL Uncaught Error: Call to a member function set_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:219
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): add_custom_price()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1404): do_action()
+#4 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(308): WC_Cart->calculate_totals()
+#5 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1284): do_action()
+#8 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart()
+#9 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple()
+#10 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): WC_Form_Handler::add_to_cart_action()
+#11 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /var/www/html/woocommerce/wp-settings.php(654): do_action()
+#14 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#15 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#16 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#17 /var/www/html/woocommerce/index.php(17): require('...')
+#18 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 219
+

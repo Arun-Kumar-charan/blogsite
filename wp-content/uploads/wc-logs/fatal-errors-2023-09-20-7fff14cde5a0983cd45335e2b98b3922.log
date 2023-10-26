@@ -1,0 +1,30 @@
+2023-09-20T06:41:31+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:161
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 161
+
+2023-09-20T06:42:56+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:162
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 162
+
+2023-09-20T06:42:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:162
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 162
+

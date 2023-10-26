@@ -1,0 +1,56 @@
+2023-09-22T10:33:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ui_check_logins" not found or invalid function name in /var/www/html/woocommerce/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/html/woocommerce/wp-includes/user.php(121): do_action()
+#3 /var/www/html/woocommerce/wp-login.php(1241): wp_signon()
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310
+
+2023-09-22T12:22:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ui_check_logins" not found or invalid function name in /var/www/html/woocommerce/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/html/woocommerce/wp-includes/user.php(121): do_action()
+#3 /var/www/html/woocommerce/wp-login.php(1241): wp_signon()
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 310
+
+2023-09-22T12:56:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function myplugin_registration_save(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 312 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:622
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(312): myplugin_registration_save()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-includes/user.php(2497): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/wc-user-functions.php(109): wp_insert_user()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1101): wc_create_new_customer()
+#6 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): WC_Form_Handler::process_registration()
+#7 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/woocommerce/wp-settings.php(654): do_action()
+#10 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#11 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#12 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#13 /var/www/html/woocommerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 622
+
+2023-09-22T12:57:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function myplugin_registration_save(), 1 passed in /var/www/html/woocommerce/wp-includes/class-wp-hook.php on line 312 and exactly 2 expected in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:622
+Stack trace:
+#0 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(312): myplugin_registration_save()
+#1 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/html/woocommerce/wp-includes/user.php(2497): do_action()
+#4 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/wc-user-functions.php(109): wp_insert_user()
+#5 /var/www/html/woocommerce/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1101): wc_create_new_customer()
+#6 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(310): WC_Form_Handler::process_registration()
+#7 /var/www/html/woocommerce/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#8 /var/www/html/woocommerce/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/woocommerce/wp-settings.php(654): do_action()
+#10 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#11 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#12 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#13 /var/www/html/woocommerce/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 622
+

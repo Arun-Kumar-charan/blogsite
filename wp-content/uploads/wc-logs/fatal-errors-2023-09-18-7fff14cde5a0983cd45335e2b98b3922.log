@@ -1,0 +1,470 @@
+2023-09-18T05:00:19+00:00 CRITICAL Cannot redeclare delete_row() (previously declared in /var/www/html/woocommerce/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:1275) in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 471
+
+2023-09-18T12:21:30+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:22:27+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:22:28+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:22:28+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:22:29+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:17+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:18+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:19+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:19+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:20+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:21+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:22+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:22+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:22+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:22+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:23+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:23+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:23+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:23+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:24+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:24+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:24+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:24+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:25+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:25+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:25+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:25+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:26+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:26+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:26+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:29+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:31+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:41+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:23:47+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:24:17+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:24:19+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:07+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:13+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:43+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:45+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:45+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:46+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:46+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:47+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:25:56+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:26:48+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/html/woocommerce/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:26:54+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
+2023-09-18T12:26:56+00:00 CRITICAL Uncaught Error: Call to undefined function alert() in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php:270
+Stack trace:
+#0 /var/www/html/woocommerce/wp-settings.php(600): include()
+#1 /var/www/html/woocommerce/wp-config.php(96): require_once('...')
+#2 /var/www/html/woocommerce/wp-load.php(50): require_once('...')
+#3 /var/www/html/woocommerce/wp-blog-header.php(13): require_once('...')
+#4 /var/www/html/woocommerce/index.php(17): require('...')
+#5 {main}
+  thrown in /var/www/html/woocommerce/wp-content/themes/Ecommerce/functions.php on line 270
+
